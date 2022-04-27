@@ -1,0 +1,785 @@
+2022-04-27 15:10:18.752 +03:00 [INF] Starting Duende IdentityServer version 5.2.0+1c3f1fadb0fa7a4bea3f4a6f7028cbfcff3b9918 (.NET 6.0.4)
+2022-04-27 15:10:22.551 +03:00 [WRN] You do not have a valid license key for Duende IdentityServer. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+2022-04-27 15:10:24.217 +03:00 [INF] Configuring local API resource 'ADSKCloudViewerAPI'.
+2022-04-27 15:10:24.300 +03:00 [INF] Configuring client 'ADSKCloudViewer'.
+2022-04-27 15:10:24.332 +03:00 [INF] Loading development key at 'C:\Users\graph\source\repos\ADSKCloudViewer\obj/tempkey.json'.
+2022-04-27 15:10:25.268 +03:00 [INF] Resource 'ADSKCloudViewerAPI' allows all applications.
+2022-04-27 15:10:25.280 +03:00 [INF] Identity resource 'openid' allows all applications.
+2022-04-27 15:10:25.282 +03:00 [INF] Identity resource 'profile' allows all applications.
+2022-04-27 15:10:25.350 +03:00 [INF] Using explicitly configured authentication scheme Identity.Application for IdentityServer
+2022-04-27 15:10:26.370 +03:00 [INF] User profile is available. Using 'C:\Users\graph\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-04-27 15:10:30.071 +03:00 [INF] Now listening on: https://localhost:7269
+2022-04-27 15:10:30.080 +03:00 [INF] Now listening on: http://localhost:5269
+2022-04-27 15:10:30.089 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-27 15:10:30.098 +03:00 [INF] Hosting environment: Development
+2022-04-27 15:10:30.105 +03:00 [INF] Content root path: C:\Users\graph\source\repos\ADSKCloudViewer\
+2022-04-27 15:10:39.219 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:10:44.162 +03:00 [INF] No SPA development server running at https://localhost:44488 found.
+2022-04-27 15:10:45.630 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:10:46.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 7551.4381ms
+2022-04-27 15:10:50.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:10:56.936 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:10:57.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 6490.7075ms
+2022-04-27 15:11:00.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:11:05.373 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:11:05.546 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 4929.4428ms
+2022-04-27 15:11:09.029 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:11:14.261 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:11:14.280 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 5250.1821ms
+2022-04-27 15:11:17.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:11:22.227 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:11:22.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 4870.2296ms
+2022-04-27 15:11:25.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:11:30.497 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:11:30.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 4963.0004ms
+2022-04-27 15:11:33.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:11:38.613 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:11:38.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 4856.9551ms
+2022-04-27 15:11:41.880 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:11:46.629 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:11:46.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 4854.0815ms
+2022-04-27 15:11:50.138 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:12:00.515 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:12:00.551 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 10412.2285ms
+2022-04-27 15:12:03.845 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:12:15.153 +03:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-04-27 15:12:15.444 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 200 - text/html 11599.0733ms
+2022-04-27 15:12:19.036 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - -
+2022-04-27 15:12:22.487 +03:00 [INF] SPA development server running at 'https://localhost:44488'
+2022-04-27 15:12:23.310 +03:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44488.
+2022-04-27 15:12:23.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - - - 302 0 - 4290.4677ms
+2022-04-27 15:12:30.316 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:12:30.812 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:30.851 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:30.941 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:12:31.035 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:12:31.186 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 214.663ms
+2022-04-27 15:12:31.232 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:31.266 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 888.0458 ms
+2022-04-27 15:12:31.270 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:12:31.320 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:31.321 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 1004.7152ms
+2022-04-27 15:12:31.335 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:31.357 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:12:31.368 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:12:31.387 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 21.1632ms
+2022-04-27 15:12:31.396 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:31.414 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 116.3639 ms
+2022-04-27 15:12:31.429 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 158.8205ms
+2022-04-27 15:12:34.682 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - -
+2022-04-27 15:12:34.710 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:34.743 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-04-27 15:12:37.394 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:12:40.222 +03:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [k].[Id], [k].[Algorithm], [k].[Created], [k].[Data], [k].[DataProtected], [k].[IsX509Certificate], [k].[Use], [k].[Version]
+FROM [Keys] AS [k]
+WHERE [k].[Use] = N'signing'
+2022-04-27 15:12:40.643 +03:00 [ERR] Error unprotecting key with kid 90978100014D0D090FA7B4D359186E4C.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at Duende.IdentityServer.Services.KeyManagement.DataProtectionKeyProtector.Unprotect(SerializedKey key) in /_/src/IdentityServer/Services/Default/KeyManagement/DataProtectionKeyProtector.cs:line 56
+   at Duende.IdentityServer.Services.KeyManagement.KeyManager.<GetKeysFromStoreAsync>b__20_0(SerializedKey x) in /_/src/IdentityServer/Services/Default/KeyManagement/KeyManager.cs:line 426
+2022-04-27 15:12:41.555 +03:00 [INF] No keys returned from store.
+2022-04-27 15:12:41.723 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [k].[Id], [k].[Algorithm], [k].[Created], [k].[Data], [k].[DataProtected], [k].[IsX509Certificate], [k].[Use], [k].[Version]
+FROM [Keys] AS [k]
+WHERE [k].[Use] = N'signing'
+2022-04-27 15:12:41.760 +03:00 [ERR] Error unprotecting key with kid 90978100014D0D090FA7B4D359186E4C.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at Duende.IdentityServer.Services.KeyManagement.DataProtectionKeyProtector.Unprotect(SerializedKey key) in /_/src/IdentityServer/Services/Default/KeyManagement/DataProtectionKeyProtector.cs:line 56
+   at Duende.IdentityServer.Services.KeyManagement.KeyManager.<GetKeysFromStoreAsync>b__20_0(SerializedKey x) in /_/src/IdentityServer/Services/Default/KeyManagement/KeyManager.cs:line 426
+2022-04-27 15:12:42.363 +03:00 [INF] No keys returned from store.
+2022-04-27 15:12:44.614 +03:00 [INF] Executed DbCommand (136ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 100), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (Size = 450), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Keys] ([Id], [Algorithm], [Created], [Data], [DataProtected], [IsX509Certificate], [Use], [Version])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2022-04-27 15:12:44.749 +03:00 [INF] Created and stored new key with kid 89ACED210B4C8984CA9A709801A32B13.
+2022-04-27 15:12:49.876 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [k].[Id], [k].[Algorithm], [k].[Created], [k].[Data], [k].[DataProtected], [k].[IsX509Certificate], [k].[Use], [k].[Version]
+FROM [Keys] AS [k]
+WHERE [k].[Use] = N'signing'
+2022-04-27 15:12:49.990 +03:00 [ERR] Error unprotecting key with kid 90978100014D0D090FA7B4D359186E4C.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at Duende.IdentityServer.Services.KeyManagement.DataProtectionKeyProtector.Unprotect(SerializedKey key) in /_/src/IdentityServer/Services/Default/KeyManagement/DataProtectionKeyProtector.cs:line 56
+   at Duende.IdentityServer.Services.KeyManagement.KeyManager.<GetKeysFromStoreAsync>b__20_0(SerializedKey x) in /_/src/IdentityServer/Services/Default/KeyManagement/KeyManager.cs:line 426
+2022-04-27 15:12:50.572 +03:00 [INF] Active signing key found with kid 89ACED210B4C8984CA9A709801A32B13 for alg RS256. Expires in "89.23:59:52". Retires in "103.23:59:52"
+2022-04-27 15:12:50.619 +03:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 15925.9102 ms
+2022-04-27 15:12:50.658 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - - - 200 - application/json;+charset=UTF-8 15976.1528ms
+2022-04-27 15:12:50.883 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=75346a57966f4b669218bd5ee7a1e8c8&code_challenge=ZXiTpnnNRMTs00VIORL_bH9ERUNpj7TLnt1obLLbsb0&code_challenge_method=S256&prompt=none&response_mode=query - -
+2022-04-27 15:12:50.973 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:51.018 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-04-27 15:12:51.095 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:51.383 +03:00 [INF] Showing login: User is not authenticated
+2022-04-27 15:12:51.392 +03:00 [INF] Changing response to LoginRequired: prompt=none was requested
+2022-04-27 15:12:51.428 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","AllowedRedirectUris":["/authentication/login-callback"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"ADSKCloudViewerAPI openid profile","State":"75346a57966f4b669218bd5ee7a1e8c8","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"none","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"ADSKCloudViewer","redirect_uri":"https://localhost:44488/authentication/login-callback","response_type":"code","scope":"ADSKCloudViewerAPI openid profile","state":"75346a57966f4b669218bd5ee7a1e8c8","code_challenge":"ZXiTpnnNRMTs00VIORL_bH9ERUNpj7TLnt1obLLbsb0","code_challenge_method":"S256","prompt":"none","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2022-04-27 15:12:51.577 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","Endpoint":"Authorize","SubjectId":null,"Scopes":"ADSKCloudViewerAPI openid profile","GrantType":"authorization_code","Error":"login_required","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HMH88RM5SDI3:00000002","TimeStamp":"2022-04-27T12:12:51.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"TokenIssuedFailureEvent"}
+2022-04-27 15:12:51.680 +03:00 [INF] HTTP GET /connect/authorize responded 302 in 722.2561 ms
+2022-04-27 15:12:51.720 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=75346a57966f4b669218bd5ee7a1e8c8&code_challenge=ZXiTpnnNRMTs00VIORL_bH9ERUNpj7TLnt1obLLbsb0&code_challenge_method=S256&prompt=none&response_mode=query - - - 302 0 - 841.2190ms
+2022-04-27 15:12:53.425 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:12:53.574 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:53.613 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:53.629 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:12:53.655 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:12:53.676 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 22.6902ms
+2022-04-27 15:12:53.696 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:53.709 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 139.7483 ms
+2022-04-27 15:12:53.731 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 306.2620ms
+2022-04-27 15:12:54.300 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:12:55.190 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:55.201 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:55.218 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:12:55.235 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:12:55.246 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 11.5521ms
+2022-04-27 15:12:55.266 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:55.272 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 83.1045 ms
+2022-04-27 15:12:55.288 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 988.2593ms
+2022-04-27 15:12:55.313 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:12:55.319 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:55.334 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:55.375 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:12:55.390 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:12:55.399 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 9.4434ms
+2022-04-27 15:12:55.416 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:12:55.427 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 109.1839 ms
+2022-04-27 15:12:55.442 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 129.1234ms
+2022-04-27 15:12:55.693 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=313099268a114fc0840d2093c50af0bb&code_challenge=Yx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0&code_challenge_method=S256&response_mode=query - -
+2022-04-27 15:12:55.810 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:55.901 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-04-27 15:12:55.913 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:55.933 +03:00 [INF] Showing login: User is not authenticated
+2022-04-27 15:12:55.953 +03:00 [INF] HTTP GET /connect/authorize responded 302 in 151.1907 ms
+2022-04-27 15:12:55.967 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=313099268a114fc0840d2093c50af0bb&code_challenge=Yx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0&code_challenge_method=S256&response_mode=query - - - 302 0 - 279.1200ms
+2022-04-27 15:12:56.096 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DADSKCloudViewer%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A44488%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DADSKCloudViewerAPI%2520openid%2520profile%26state%3D313099268a114fc0840d2093c50af0bb%26code_challenge%3DYx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0%26code_challenge_method%3DS256%26response_mode%3Dquery - -
+2022-04-27 15:12:56.145 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:56.236 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:56.257 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:12:56.347 +03:00 [INF] Executing endpoint '/Account/Login'
+2022-04-27 15:12:56.428 +03:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2022-04-27 15:12:56.500 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2022-04-27 15:12:56.570 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2022-04-27 15:12:56.599 +03:00 [INF] Executed handler method OnGetAsync, returned result .
+2022-04-27 15:12:56.628 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-04-27 15:12:56.634 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-04-27 15:12:59.333 +03:00 [INF] Executed page /Account/Login in 2892.5438ms
+2022-04-27 15:12:59.352 +03:00 [INF] Executed endpoint '/Account/Login'
+2022-04-27 15:12:59.401 +03:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 3287.2654 ms
+2022-04-27 15:12:59.662 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DADSKCloudViewer%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A44488%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DADSKCloudViewerAPI%2520openid%2520profile%26state%3D313099268a114fc0840d2093c50af0bb%26code_challenge%3DYx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0%26code_challenge_method%3DS256%26response_mode%3Dquery - - - 200 - text/html;+charset=utf-8 3565.9194ms
+2022-04-27 15:12:59.848 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/lib/bootstrap/dist/css/bootstrap.css - -
+2022-04-27 15:13:01.263 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/lib/jquery/dist/jquery.js - -
+2022-04-27 15:13:01.270 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/lib/jquery-validation/dist/jquery.validate.js - -
+2022-04-27 15:13:01.264 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2022-04-27 15:13:02.848 +03:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\graph\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.4\staticwebassets\V5\lib\jquery-validation\dist\jquery.validate.js'
+2022-04-27 15:13:02.237 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2022-04-27 15:13:01.454 +03:00 [INF] Sending file. Request path: '/Identity/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\Users\graph\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.4\staticwebassets\V5\lib\bootstrap\dist\css\bootstrap.css'
+2022-04-27 15:13:03.389 +03:00 [INF] HTTP GET /Identity/lib/jquery-validation/dist/jquery.validate.js responded 200 in 790.8922 ms
+2022-04-27 15:13:03.231 +03:00 [INF] Sending file. Request path: '/Identity/js/site.js'. Physical path: 'C:\Users\graph\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.4\staticwebassets\V5\js\site.js'
+2022-04-27 15:13:01.269 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js - -
+2022-04-27 15:13:01.268 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/css/site.css - -
+2022-04-27 15:13:03.560 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/lib/jquery-validation/dist/jquery.validate.js - - - 200 48676 application/javascript 2289.9350ms
+2022-04-27 15:13:03.660 +03:00 [INF] HTTP GET /Identity/js/site.js responded 200 in 435.1096 ms
+2022-04-27 15:13:03.542 +03:00 [INF] Sending file. Request path: '/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\graph\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.4\staticwebassets\V5\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2022-04-27 15:13:03.553 +03:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/css/bootstrap.css responded 200 in 3683.0174 ms
+2022-04-27 15:13:03.107 +03:00 [INF] Sending file. Request path: '/Identity/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\graph\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.4\staticwebassets\V5\lib\jquery\dist\jquery.js'
+2022-04-27 15:13:04.125 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - -
+2022-04-27 15:13:04.174 +03:00 [INF] Sending file. Request path: '/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'C:\Users\graph\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.4\staticwebassets\V5\lib\bootstrap\dist\js\bootstrap.bundle.js'
+2022-04-27 15:13:04.178 +03:00 [INF] Sending file. Request path: '/Identity/css/site.css'. Physical path: 'C:\Users\graph\.nuget\packages\microsoft.aspnetcore.identity.ui\6.0.4\staticwebassets\V5\css\site.css'
+2022-04-27 15:13:04.193 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 2928.2597ms
+2022-04-27 15:13:04.291 +03:00 [INF] HTTP GET /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js responded 200 in 888.2315 ms
+2022-04-27 15:13:04.297 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/lib/bootstrap/dist/css/bootstrap.css - - - 200 204136 text/css 4448.7136ms
+2022-04-27 15:13:04.323 +03:00 [INF] HTTP GET /Identity/lib/jquery/dist/jquery.js responded 200 in 2052.9146 ms
+2022-04-27 15:13:06.124 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/lib/jquery/dist/jquery.js - - - 200 287630 application/javascript 4861.2437ms
+2022-04-27 15:13:04.364 +03:00 [INF] HTTP GET /Identity/lib/bootstrap/dist/js/bootstrap.bundle.js responded 200 in 555.9951 ms
+2022-04-27 15:13:06.152 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/lib/bootstrap/dist/js/bootstrap.bundle.js - - - 200 208492 application/javascript 4882.6898ms
+2022-04-27 15:13:05.836 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19366 application/javascript 3598.8643ms
+2022-04-27 15:13:04.345 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 219.8936ms
+2022-04-27 15:13:04.382 +03:00 [INF] HTTP GET /Identity/css/site.css responded 200 in 251.7676 ms
+2022-04-27 15:13:06.222 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/css/site.css - - - 200 1378 text/css 4953.1308ms
+2022-04-27 15:15:39.096 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:44488/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DADSKCloudViewer%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A44488%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DADSKCloudViewerAPI%2520openid%2520profile%26state%3D313099268a114fc0840d2093c50af0bb%26code_challenge%3DYx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0%26code_challenge_method%3DS256%26response_mode%3Dquery application/x-www-form-urlencoded 296
+2022-04-27 15:15:39.149 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:15:39.182 +03:00 [INF] No CORS policy found for the specified request.
+2022-04-27 15:15:39.187 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:15:39.201 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:15:39.219 +03:00 [INF] Executing endpoint '/Account/Login'
+2022-04-27 15:15:39.240 +03:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2022-04-27 15:15:39.430 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnPostAsync - ModelState is "Valid"
+2022-04-27 15:15:39.472 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:15:39.607 +03:00 [INF] Executed DbCommand (53ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-04-27 15:15:40.395 +03:00 [INF] Executed DbCommand (50ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-27 15:15:40.473 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:15:40.488 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2022-04-27 15:15:40.532 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2022-04-27 15:15:40.549 +03:00 [INF] User logged in.
+2022-04-27 15:15:40.571 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2022-04-27 15:15:40.622 +03:00 [INF] Executing LocalRedirectResult, redirecting to /connect/authorize/callback?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=313099268a114fc0840d2093c50af0bb&code_challenge=Yx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0&code_challenge_method=S256&response_mode=query.
+2022-04-27 15:15:40.712 +03:00 [INF] Executed page /Account/Login in 1410.9056ms
+2022-04-27 15:15:40.739 +03:00 [INF] Executed endpoint '/Account/Login'
+2022-04-27 15:15:40.758 +03:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 1630.7459 ms
+2022-04-27 15:15:40.806 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:44488/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DADSKCloudViewer%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A44488%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DADSKCloudViewerAPI%2520openid%2520profile%26state%3D313099268a114fc0840d2093c50af0bb%26code_challenge%3DYx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0%26code_challenge_method%3DS256%26response_mode%3Dquery application/x-www-form-urlencoded 296 - 302 0 - 1699.5824ms
+2022-04-27 15:15:40.979 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/authorize/callback?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=313099268a114fc0840d2093c50af0bb&code_challenge=Yx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0&code_challenge_method=S256&response_mode=query - -
+2022-04-27 15:15:41.010 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2022-04-27 15:15:41.296 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:15:41.482 +03:00 [INF] Executed DbCommand (41ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:15:41.623 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:15:41.695 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[@__token_Key_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Key], [p].[ClientId], [p].[ConsumedTime], [p].[CreationTime], [p].[Data], [p].[Description], [p].[Expiration], [p].[SessionId], [p].[SubjectId], [p].[Type]
+FROM [PersistedGrants] AS [p]
+WHERE [p].[Key] = @__token_Key_0
+2022-04-27 15:15:43.326 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 200), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 200), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [PersistedGrants] ([Key], [ClientId], [ConsumedTime], [CreationTime], [Data], [Description], [Expiration], [SessionId], [SubjectId], [Type])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2022-04-27 15:15:43.407 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","Endpoint":"Authorize","SubjectId":"e1e3d956-74fd-4de0-9489-2a4036e86331","Scopes":"ADSKCloudViewerAPI openid profile","GrantType":"authorization_code","Tokens":[{"TokenType":"code","TokenValue":"****6B66","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HMH88RM5SDII:00000002","TimeStamp":"2022-04-27T12:15:43.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"TokenIssuedSuccessEvent"}
+2022-04-27 15:15:43.496 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2022-04-27 15:15:43.512 +03:00 [INF] HTTP GET /connect/authorize/callback responded 302 in 2514.5986 ms
+2022-04-27 15:15:43.524 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/authorize/callback?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=313099268a114fc0840d2093c50af0bb&code_challenge=Yx-PghZNudgQKqFcxlHDCMqGu0PDQ0vP1w9c_EIcdB0&code_challenge_method=S256&response_mode=query - - - 302 0 - 2544.7214ms
+2022-04-27 15:15:45.418 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:15:45.695 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:15:45.706 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:15:45.723 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:15:45.739 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 17.4436ms
+2022-04-27 15:15:45.749 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:15:45.771 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 77.7563 ms
+2022-04-27 15:15:45.776 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 357.9370ms
+2022-04-27 15:15:45.815 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:15:45.908 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:15:45.926 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:15:45.946 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:15:45.966 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 20.4013ms
+2022-04-27 15:15:46.010 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:15:46.026 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:15:46.049 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 150.7673 ms
+2022-04-27 15:15:46.057 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 242.1879ms
+2022-04-27 15:15:46.041 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:15:46.092 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:15:46.109 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:15:46.137 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 28.5833ms
+2022-04-27 15:15:46.156 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:15:46.164 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 123.6219 ms
+2022-04-27 15:15:46.172 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 161.4791ms
+2022-04-27 15:15:46.239 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - -
+2022-04-27 15:15:46.248 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-04-27 15:15:46.262 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:15:46.318 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [k].[Id], [k].[Algorithm], [k].[Created], [k].[Data], [k].[DataProtected], [k].[IsX509Certificate], [k].[Use], [k].[Version]
+FROM [Keys] AS [k]
+WHERE [k].[Use] = N'signing'
+2022-04-27 15:15:46.341 +03:00 [ERR] Error unprotecting key with kid 90978100014D0D090FA7B4D359186E4C.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at Duende.IdentityServer.Services.KeyManagement.DataProtectionKeyProtector.Unprotect(SerializedKey key) in /_/src/IdentityServer/Services/Default/KeyManagement/DataProtectionKeyProtector.cs:line 56
+   at Duende.IdentityServer.Services.KeyManagement.KeyManager.<GetKeysFromStoreAsync>b__20_0(SerializedKey x) in /_/src/IdentityServer/Services/Default/KeyManagement/KeyManager.cs:line 426
+2022-04-27 15:15:46.408 +03:00 [INF] Active signing key found with kid 89ACED210B4C8984CA9A709801A32B13 for alg RS256. Expires in "89.23:56:56". Retires in "103.23:56:56"
+2022-04-27 15:15:46.432 +03:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 185.4816 ms
+2022-04-27 15:15:46.452 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - - - 200 - application/json;+charset=UTF-8 212.1399ms
+2022-04-27 15:15:46.494 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:44488/connect/token application/x-www-form-urlencoded 315
+2022-04-27 15:15:46.526 +03:00 [INF] No CORS policy found for the specified request.
+2022-04-27 15:15:46.627 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.TokenEndpoint for /connect/token
+2022-04-27 15:15:46.895 +03:00 [INF] {"ClientId":"ADSKCloudViewer","AuthenticationMethod":"NoSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HMH88RM5SDIN:00000002","TimeStamp":"2022-04-27T12:15:46.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"ClientAuthenticationSuccessEvent"}
+2022-04-27 15:15:47.121 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:15:47.721 +03:00 [INF] Executed DbCommand (553ms) [Parameters=[@__key_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Key], [p].[ClientId], [p].[ConsumedTime], [p].[CreationTime], [p].[Data], [p].[Description], [p].[Expiration], [p].[SessionId], [p].[SubjectId], [p].[Type]
+FROM [PersistedGrants] AS [p]
+WHERE [p].[Key] = @__key_0
+2022-04-27 15:15:48.542 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__key_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Key], [p].[ClientId], [p].[ConsumedTime], [p].[CreationTime], [p].[Data], [p].[Description], [p].[Expiration], [p].[SessionId], [p].[SubjectId], [p].[Type]
+FROM [PersistedGrants] AS [p]
+WHERE [p].[Key] = @__key_0
+2022-04-27 15:15:48.757 +03:00 [INF] Executed DbCommand (78ms) [Parameters=[@p0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [PersistedGrants]
+WHERE [Key] = @p0;
+SELECT @@ROWCOUNT;
+2022-04-27 15:15:48.910 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:15:48.980 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:15:49.058 +03:00 [INF] Token request validation success, {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"****6B66","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"ADSKCloudViewer","code":"6FA9D33CB9C4D40A72B519E94859FE88463264276FF794A2A905C4AD4F886B66","redirect_uri":"https://localhost:44488/authentication/login-callback","code_verifier":"d72219fb008546489287a02c02adcc1a0c7781e770494c7ea000417815b73e96925798a8f4be47ab8ed0f5514f6534f6","grant_type":"authorization_code"},"$type":"TokenRequestValidationLog"}
+2022-04-27 15:15:49.460 +03:00 [INF] Executed DbCommand (109ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-27 15:15:50.522 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":null,"Endpoint":"Token","SubjectId":"e1e3d956-74fd-4de0-9489-2a4036e86331","Scopes":"ADSKCloudViewerAPI openid profile","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****EOew","$type":"Token"},{"TokenType":"access_token","TokenValue":"****3hew","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HMH88RM5SDIN:00000002","TimeStamp":"2022-04-27T12:15:50.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"TokenIssuedSuccessEvent"}
+2022-04-27 15:15:50.972 +03:00 [INF] HTTP POST /connect/token responded 200 in 4452.0901 ms
+2022-04-27 15:15:51.057 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:44488/connect/token application/x-www-form-urlencoded 315 - 200 - application/json;+charset=UTF-8 4563.3794ms
+2022-04-27 15:15:51.210 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/userinfo - -
+2022-04-27 15:15:51.609 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.UserInfoEndpoint for /connect/userinfo
+2022-04-27 15:15:51.798 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:15:52.027 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:15:52.123 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-27 15:15:52.230 +03:00 [INF] Profile service returned the following claim types: sub preferred_username name
+2022-04-27 15:15:52.285 +03:00 [INF] HTTP GET /connect/userinfo responded 200 in 995.1513 ms
+2022-04-27 15:15:52.324 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/userinfo - - - 200 - application/json;+charset=UTF-8 1114.8835ms
+2022-04-27 15:15:52.672 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/checksession - -
+2022-04-27 15:15:52.684 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.CheckSessionEndpoint for /connect/checksession
+2022-04-27 15:15:52.737 +03:00 [INF] HTTP GET /connect/checksession responded 200 in 54.6295 ms
+2022-04-27 15:15:52.782 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/checksession - - - 200 - text/html;+charset=UTF-8 110.0367ms
+2022-04-27 15:15:57.022 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/weatherforecast - -
+2022-04-27 15:15:57.053 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer)'
+2022-04-27 15:15:57.063 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", page = "", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ADSKCloudViewer.WeatherForecast] Get() on controller ADSKCloudViewer.Controllers.WeatherForecastController (ADSKCloudViewer).
+2022-04-27 15:15:57.086 +03:00 [INF] Executing ObjectResult, writing value of type 'ADSKCloudViewer.WeatherForecast[]'.
+2022-04-27 15:15:57.097 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer) in 18.2749ms
+2022-04-27 15:15:57.518 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer)'
+2022-04-27 15:15:57.528 +03:00 [INF] HTTP GET /weatherforecast responded 200 in 500.8753 ms
+2022-04-27 15:15:57.544 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/weatherforecast - - - 200 - application/json;+charset=utf-8 521.1537ms
+2022-04-27 15:19:50.077 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/weatherforecast - -
+2022-04-27 15:19:50.087 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer)'
+2022-04-27 15:19:50.093 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", page = "", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ADSKCloudViewer.WeatherForecast] Get() on controller ADSKCloudViewer.Controllers.WeatherForecastController (ADSKCloudViewer).
+2022-04-27 15:19:50.101 +03:00 [INF] Executing ObjectResult, writing value of type 'ADSKCloudViewer.WeatherForecast[]'.
+2022-04-27 15:19:50.108 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer) in 7.7854ms
+2022-04-27 15:19:50.115 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer)'
+2022-04-27 15:19:50.122 +03:00 [INF] HTTP GET /weatherforecast responded 200 in 40.1017 ms
+2022-04-27 15:19:50.132 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/weatherforecast - - - 200 - application/json;+charset=utf-8 55.3342ms
+2022-04-27 15:19:53.831 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage - -
+2022-04-27 15:19:53.850 +03:00 [INF] Executing endpoint '/Account/Manage/Index'
+2022-04-27 15:19:53.895 +03:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2022-04-27 15:19:53.915 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Manage.Internal.IndexModel.OnGetAsync - ModelState is "Valid"
+2022-04-27 15:19:53.934 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:19:54.005 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:19:54.039 +03:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-04-27 15:19:54.204 +03:00 [INF] Executed page /Account/Manage/Index in 298.0471ms
+2022-04-27 15:19:54.210 +03:00 [INF] Executed endpoint '/Account/Manage/Index'
+2022-04-27 15:19:54.214 +03:00 [INF] HTTP GET /Identity/Account/Manage responded 200 in 368.4343 ms
+2022-04-27 15:19:54.231 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage - - - 200 - text/html;+charset=utf-8 399.7039ms
+2022-04-27 15:19:54.688 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - -
+2022-04-27 15:19:54.730 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 42.4029ms
+2022-04-27 15:19:56.531 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage/Email - -
+2022-04-27 15:19:56.541 +03:00 [INF] Executing endpoint '/Account/Manage/Email'
+2022-04-27 15:19:56.566 +03:00 [INF] Route matched with {page = "/Account/Manage/Email", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Email
+2022-04-27 15:19:56.573 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Manage.Internal.EmailModel.OnGetAsync - ModelState is "Valid"
+2022-04-27 15:19:56.585 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:19:56.667 +03:00 [INF] Executed DbCommand (70ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:19:56.700 +03:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-04-27 15:19:56.800 +03:00 [INF] Executed page /Account/Manage/Email in 227.611ms
+2022-04-27 15:19:56.807 +03:00 [INF] Executed endpoint '/Account/Manage/Email'
+2022-04-27 15:19:56.811 +03:00 [INF] HTTP GET /Identity/Account/Manage/Email responded 200 in 271.2231 ms
+2022-04-27 15:19:56.824 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage/Email - - - 200 - text/html;+charset=utf-8 293.3134ms
+2022-04-27 15:19:57.218 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - -
+2022-04-27 15:19:57.433 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 215.1425ms
+2022-04-27 15:19:59.825 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage/ChangePassword - -
+2022-04-27 15:19:59.853 +03:00 [INF] Executing endpoint '/Account/Manage/ChangePassword'
+2022-04-27 15:19:59.872 +03:00 [INF] Route matched with {page = "/Account/Manage/ChangePassword", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/ChangePassword
+2022-04-27 15:19:59.880 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Manage.Internal.ChangePasswordModel.OnGetAsync - ModelState is "Valid"
+2022-04-27 15:19:59.889 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:19:59.935 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:19:59.948 +03:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-04-27 15:20:00.108 +03:00 [INF] Executed page /Account/Manage/ChangePassword in 228.6954ms
+2022-04-27 15:20:00.114 +03:00 [INF] Executed endpoint '/Account/Manage/ChangePassword'
+2022-04-27 15:20:00.120 +03:00 [INF] HTTP GET /Identity/Account/Manage/ChangePassword responded 200 in 280.8488 ms
+2022-04-27 15:20:00.134 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage/ChangePassword - - - 200 - text/html;+charset=utf-8 308.7070ms
+2022-04-27 15:20:00.363 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - -
+2022-04-27 15:20:00.474 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 111.3922ms
+2022-04-27 15:20:01.489 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage/TwoFactorAuthentication - -
+2022-04-27 15:20:01.537 +03:00 [INF] Executing endpoint '/Account/Manage/TwoFactorAuthentication'
+2022-04-27 15:20:01.556 +03:00 [INF] Route matched with {page = "/Account/Manage/TwoFactorAuthentication", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/TwoFactorAuthentication
+2022-04-27 15:20:01.563 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Manage.Internal.TwoFactorAuthenticationModel.OnGetAsync - ModelState is "Valid"
+2022-04-27 15:20:01.581 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:01.631 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:20:01.750 +03:00 [INF] Executed DbCommand (67ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 128), @__p_2='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[LoginProvider], [a].[Name], [a].[Value]
+FROM [AspNetUserTokens] AS [a]
+WHERE (([a].[UserId] = @__p_0) AND ([a].[LoginProvider] = @__p_1)) AND ([a].[Name] = @__p_2)
+2022-04-27 15:20:01.845 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 128), @__p_2='?' (Size = 128)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[LoginProvider], [a].[Name], [a].[Value]
+FROM [AspNetUserTokens] AS [a]
+WHERE (([a].[UserId] = @__p_0) AND ([a].[LoginProvider] = @__p_1)) AND ([a].[Name] = @__p_2)
+2022-04-27 15:20:01.863 +03:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-04-27 15:20:01.922 +03:00 [INF] Executed page /Account/Manage/TwoFactorAuthentication in 362.5881ms
+2022-04-27 15:20:01.928 +03:00 [INF] Executed endpoint '/Account/Manage/TwoFactorAuthentication'
+2022-04-27 15:20:01.933 +03:00 [INF] HTTP GET /Identity/Account/Manage/TwoFactorAuthentication responded 200 in 400.1938 ms
+2022-04-27 15:20:01.979 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage/TwoFactorAuthentication - - - 200 - text/html;+charset=utf-8 489.0254ms
+2022-04-27 15:20:02.318 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - -
+2022-04-27 15:20:02.431 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 113.5339ms
+2022-04-27 15:20:03.572 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage/PersonalData - -
+2022-04-27 15:20:03.595 +03:00 [INF] Executing endpoint '/Account/Manage/PersonalData'
+2022-04-27 15:20:03.713 +03:00 [INF] Route matched with {page = "/Account/Manage/PersonalData", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/PersonalData
+2022-04-27 15:20:03.728 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Manage.Internal.PersonalDataModel.OnGet - ModelState is "Valid"
+2022-04-27 15:20:03.741 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:03.789 +03:00 [INF] Executed DbCommand (41ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:20:03.798 +03:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-04-27 15:20:03.873 +03:00 [INF] Executed page /Account/Manage/PersonalData in 145.9715ms
+2022-04-27 15:20:03.877 +03:00 [INF] Executed endpoint '/Account/Manage/PersonalData'
+2022-04-27 15:20:03.888 +03:00 [INF] HTTP GET /Identity/Account/Manage/PersonalData responded 200 in 295.0027 ms
+2022-04-27 15:20:03.897 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage/PersonalData - - - 200 - text/html;+charset=utf-8 325.2704ms
+2022-04-27 15:20:04.181 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - -
+2022-04-27 15:20:04.384 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 202.7475ms
+2022-04-27 15:20:05.701 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage - -
+2022-04-27 15:20:05.707 +03:00 [INF] Executing endpoint '/Account/Manage/Index'
+2022-04-27 15:20:05.719 +03:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2022-04-27 15:20:05.727 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Manage.Internal.IndexModel.OnGetAsync - ModelState is "Valid"
+2022-04-27 15:20:05.738 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:05.794 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:20:05.814 +03:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-04-27 15:20:05.834 +03:00 [INF] Executed page /Account/Manage/Index in 107.613ms
+2022-04-27 15:20:05.838 +03:00 [INF] Executed endpoint '/Account/Manage/Index'
+2022-04-27 15:20:05.844 +03:00 [INF] HTTP GET /Identity/Account/Manage responded 200 in 137.9376 ms
+2022-04-27 15:20:05.858 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/Account/Manage - - - 200 - text/html;+charset=utf-8 157.2552ms
+2022-04-27 15:20:06.293 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - -
+2022-04-27 15:20:06.855 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 561.9956ms
+2022-04-27 15:20:07.184 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:44488/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225
+2022-04-27 15:20:07.196 +03:00 [INF] No CORS policy found for the specified request.
+2022-04-27 15:20:07.200 +03:00 [INF] Executing endpoint '/Account/Logout'
+2022-04-27 15:20:07.215 +03:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2022-04-27 15:20:07.223 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LogoutModel.OnPost - ModelState is "Valid"
+2022-04-27 15:20:07.242 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2022-04-27 15:20:07.249 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2022-04-27 15:20:07.262 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2022-04-27 15:20:07.266 +03:00 [INF] User logged out.
+2022-04-27 15:20:07.274 +03:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2022-04-27 15:20:07.280 +03:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2022-04-27 15:20:07.310 +03:00 [INF] Executed page /Account/Logout in 91.7656ms
+2022-04-27 15:20:07.319 +03:00 [INF] Executed endpoint '/Account/Logout'
+2022-04-27 15:20:07.329 +03:00 [INF] HTTP POST /Identity/Account/Logout responded 302 in 134.2990 ms
+2022-04-27 15:20:07.380 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:44488/Identity/Account/Logout?returnUrl=%2F application/x-www-form-urlencoded 225 - 302 0 - 196.6977ms
+2022-04-27 15:20:08.575 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:08.584 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:08.591 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:08.637 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:08.807 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 170.1599ms
+2022-04-27 15:20:08.823 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:08.832 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 249.1043 ms
+2022-04-27 15:20:08.839 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 263.6693ms
+2022-04-27 15:20:08.845 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:08.900 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:08.904 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:08.914 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:08.920 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 5.6857ms
+2022-04-27 15:20:08.925 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:08.928 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 30.4839 ms
+2022-04-27 15:20:08.932 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 86.4506ms
+2022-04-27 15:20:08.952 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - -
+2022-04-27 15:20:08.963 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-04-27 15:20:09.025 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:09.075 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [k].[Id], [k].[Algorithm], [k].[Created], [k].[Data], [k].[DataProtected], [k].[IsX509Certificate], [k].[Use], [k].[Version]
+FROM [Keys] AS [k]
+WHERE [k].[Use] = N'signing'
+2022-04-27 15:20:09.086 +03:00 [ERR] Error unprotecting key with kid 90978100014D0D090FA7B4D359186E4C.
+System.Security.Cryptography.CryptographicException: The payload was invalid. For more information go to http://aka.ms/dataprotectionwarning
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(IDataProtector protector, String protectedData)
+   at Duende.IdentityServer.Services.KeyManagement.DataProtectionKeyProtector.Unprotect(SerializedKey key) in /_/src/IdentityServer/Services/Default/KeyManagement/DataProtectionKeyProtector.cs:line 56
+   at Duende.IdentityServer.Services.KeyManagement.KeyManager.<GetKeysFromStoreAsync>b__20_0(SerializedKey x) in /_/src/IdentityServer/Services/Default/KeyManagement/KeyManager.cs:line 426
+2022-04-27 15:20:09.132 +03:00 [INF] Active signing key found with kid 89ACED210B4C8984CA9A709801A32B13 for alg RS256. Expires in "89.23:52:33". Retires in "103.23:52:33"
+2022-04-27 15:20:09.140 +03:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 181.4439 ms
+2022-04-27 15:20:09.156 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - - - 200 - application/json;+charset=UTF-8 204.5850ms
+2022-04-27 15:20:09.260 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/checksession - -
+2022-04-27 15:20:09.260 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - -
+2022-04-27 15:20:09.277 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.CheckSessionEndpoint for /connect/checksession
+2022-04-27 15:20:09.281 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-04-27 15:20:09.285 +03:00 [INF] HTTP GET /connect/checksession responded 200 in 12.6149 ms
+2022-04-27 15:20:09.289 +03:00 [INF] Active signing key found with kid 89ACED210B4C8984CA9A709801A32B13 for alg RS256. Expires in "89.23:52:33". Retires in "103.23:52:33"
+2022-04-27 15:20:09.294 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/checksession - - - 200 - text/html;+charset=UTF-8 33.3765ms
+2022-04-27 15:20:09.298 +03:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 17.4991 ms
+2022-04-27 15:20:09.316 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - - - 200 - application/json;+charset=UTF-8 55.8535ms
+2022-04-27 15:20:09.533 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=openid&state=70265dce5127492c91688ce8edcf016d&code_challenge=i0HfHXEL5lIAe4lcKviswpRVo1ScEy9BdnKHfYImSh0&code_challenge_method=S256&prompt=none&response_mode=query - -
+2022-04-27 15:20:09.533 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/checksession - -
+2022-04-27 15:20:09.623 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.CheckSessionEndpoint for /connect/checksession
+2022-04-27 15:20:09.658 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-04-27 15:20:09.874 +03:00 [INF] HTTP GET /connect/checksession responded 200 in 255.3889 ms
+2022-04-27 15:20:09.913 +03:00 [INF] Showing login: User is not authenticated
+2022-04-27 15:20:09.925 +03:00 [INF] Changing response to LoginRequired: prompt=none was requested
+2022-04-27 15:20:09.949 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","AllowedRedirectUris":["/authentication/login-callback"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid","State":"70265dce5127492c91688ce8edcf016d","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"none","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"ADSKCloudViewer","redirect_uri":"https://localhost:44488/authentication/login-callback","response_type":"code","scope":"openid","state":"70265dce5127492c91688ce8edcf016d","code_challenge":"i0HfHXEL5lIAe4lcKviswpRVo1ScEy9BdnKHfYImSh0","code_challenge_method":"S256","prompt":"none","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2022-04-27 15:20:09.920 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/checksession - - - 200 - text/html;+charset=UTF-8 386.5948ms
+2022-04-27 15:20:10.057 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","Endpoint":"Authorize","SubjectId":null,"Scopes":"openid","GrantType":"authorization_code","Error":"login_required","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HMH88RM5SDJF:00000002","TimeStamp":"2022-04-27T12:20:10.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"TokenIssuedFailureEvent"}
+2022-04-27 15:20:10.145 +03:00 [INF] HTTP GET /connect/authorize responded 302 in 556.6866 ms
+2022-04-27 15:20:10.155 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=openid&state=70265dce5127492c91688ce8edcf016d&code_challenge=i0HfHXEL5lIAe4lcKviswpRVo1ScEy9BdnKHfYImSh0&code_challenge_method=S256&prompt=none&response_mode=query - - - 302 0 - 622.6065ms
+2022-04-27 15:20:10.512 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=openid&state=1abb48cfbd6b45f29a1d677c64e646b4&code_challenge=cZxO86nxddBlYen-lYqVUGjeJQJnx3Zz3HK5HTCmzoc&code_challenge_method=S256&prompt=none&response_mode=query - -
+2022-04-27 15:20:10.623 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-04-27 15:20:10.633 +03:00 [INF] Showing login: User is not authenticated
+2022-04-27 15:20:10.637 +03:00 [INF] Changing response to LoginRequired: prompt=none was requested
+2022-04-27 15:20:10.642 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","AllowedRedirectUris":["/authentication/login-callback"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"openid","State":"1abb48cfbd6b45f29a1d677c64e646b4","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"none","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"ADSKCloudViewer","redirect_uri":"https://localhost:44488/authentication/login-callback","response_type":"code","scope":"openid","state":"1abb48cfbd6b45f29a1d677c64e646b4","code_challenge":"cZxO86nxddBlYen-lYqVUGjeJQJnx3Zz3HK5HTCmzoc","code_challenge_method":"S256","prompt":"none","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2022-04-27 15:20:10.751 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","Endpoint":"Authorize","SubjectId":null,"Scopes":"openid","GrantType":"authorization_code","Error":"login_required","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HMH88RM5SDJG:00000002","TimeStamp":"2022-04-27T12:20:10.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"TokenIssuedFailureEvent"}
+2022-04-27 15:20:10.829 +03:00 [INF] HTTP GET /connect/authorize responded 302 in 206.6498 ms
+2022-04-27 15:20:10.836 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=openid&state=1abb48cfbd6b45f29a1d677c64e646b4&code_challenge=cZxO86nxddBlYen-lYqVUGjeJQJnx3Zz3HK5HTCmzoc&code_challenge_method=S256&prompt=none&response_mode=query - - - 302 0 - 324.2233ms
+2022-04-27 15:20:11.127 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:11.132 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:11.157 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:11.164 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:11.187 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 23.0944ms
+2022-04-27 15:20:11.312 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:11.619 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:11.626 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 493.7971 ms
+2022-04-27 15:20:11.623 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:11.636 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:11.632 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 505.0116ms
+2022-04-27 15:20:11.646 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:11.655 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 9.3124ms
+2022-04-27 15:20:11.662 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:11.667 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 44.6186 ms
+2022-04-27 15:20:11.671 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 359.1923ms
+2022-04-27 15:20:11.747 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:11.752 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:11.772 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - -
+2022-04-27 15:20:11.785 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:11.812 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:11.799 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-04-27 15:20:11.820 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 7.6076ms
+2022-04-27 15:20:11.828 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:11.831 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 79.6483 ms
+2022-04-27 15:20:11.843 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 96.3699ms
+2022-04-27 15:20:11.824 +03:00 [INF] Active signing key found with kid 89ACED210B4C8984CA9A709801A32B13 for alg RS256. Expires in "89.23:52:31". Retires in "103.23:52:31"
+2022-04-27 15:20:11.856 +03:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 57.3552 ms
+2022-04-27 15:20:11.861 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - - - 200 - application/json;+charset=UTF-8 88.8850ms
+2022-04-27 15:20:11.994 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - -
+2022-04-27 15:20:12.000 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:12.044 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-04-27 15:20:12.048 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:12.057 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:12.053 +03:00 [INF] Active signing key found with kid 89ACED210B4C8984CA9A709801A32B13 for alg RS256. Expires in "89.23:52:30". Retires in "103.23:52:30"
+2022-04-27 15:20:12.063 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:12.068 +03:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 28.8448 ms
+2022-04-27 15:20:12.079 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - - - 200 - application/json;+charset=UTF-8 85.1176ms
+2022-04-27 15:20:12.074 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 11.5223ms
+2022-04-27 15:20:12.090 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:12.095 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 47.2634 ms
+2022-04-27 15:20:12.101 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 100.7036ms
+2022-04-27 15:20:12.128 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:12.138 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:12.144 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:12.155 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:12.163 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 8.2959ms
+2022-04-27 15:20:12.181 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:12.190 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 51.9405 ms
+2022-04-27 15:20:12.195 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:12.198 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 69.7731ms
+2022-04-27 15:20:12.205 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:12.212 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:12.219 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:12.224 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 4.6845ms
+2022-04-27 15:20:12.229 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:12.234 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 29.5496 ms
+2022-04-27 15:20:12.239 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 43.5702ms
+2022-04-27 15:20:13.927 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=1acfd1fac6b340c791dbd36067aefd49&code_challenge=i0gjfuMEcVXGYXW_oHCG491tGGaNxlKRYNyY7OCs_G4&code_challenge_method=S256&prompt=none&response_mode=query - -
+2022-04-27 15:20:13.935 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-04-27 15:20:13.939 +03:00 [INF] Showing login: User is not authenticated
+2022-04-27 15:20:13.943 +03:00 [INF] Changing response to LoginRequired: prompt=none was requested
+2022-04-27 15:20:13.947 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","AllowedRedirectUris":["/authentication/login-callback"],"SubjectId":"anonymous","ResponseType":"code","ResponseMode":"query","GrantType":"authorization_code","RequestedScopes":"ADSKCloudViewerAPI openid profile","State":"1acfd1fac6b340c791dbd36067aefd49","UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":"none","MaxAge":null,"LoginHint":null,"SessionId":"","Raw":{"client_id":"ADSKCloudViewer","redirect_uri":"https://localhost:44488/authentication/login-callback","response_type":"code","scope":"ADSKCloudViewerAPI openid profile","state":"1acfd1fac6b340c791dbd36067aefd49","code_challenge":"i0gjfuMEcVXGYXW_oHCG491tGGaNxlKRYNyY7OCs_G4","code_challenge_method":"S256","prompt":"none","response_mode":"query"},"$type":"AuthorizeRequestValidationLog"}
+2022-04-27 15:20:13.987 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","Endpoint":"Authorize","SubjectId":null,"Scopes":"ADSKCloudViewerAPI openid profile","GrantType":"authorization_code","Error":"login_required","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HMH88RM5SDJP:00000002","TimeStamp":"2022-04-27T12:20:13.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"TokenIssuedFailureEvent"}
+2022-04-27 15:20:14.019 +03:00 [INF] HTTP GET /connect/authorize responded 302 in 85.5364 ms
+2022-04-27 15:20:14.024 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=1acfd1fac6b340c791dbd36067aefd49&code_challenge=i0gjfuMEcVXGYXW_oHCG491tGGaNxlKRYNyY7OCs_G4&code_challenge_method=S256&prompt=none&response_mode=query - - - 302 0 - 97.1054ms
+2022-04-27 15:20:14.599 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:14.610 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:14.616 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:14.623 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:14.630 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 6.8044ms
+2022-04-27 15:20:14.634 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:14.638 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 29.2000 ms
+2022-04-27 15:20:14.644 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 44.2286ms
+2022-04-27 15:20:14.712 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:14.716 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:14.720 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:14.728 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:14.733 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 6.1262ms
+2022-04-27 15:20:14.772 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:14.778 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:14.784 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 69.0262 ms
+2022-04-27 15:20:14.789 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 77.4449ms
+2022-04-27 15:20:14.781 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:14.799 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:14.807 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:14.812 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 4.7183ms
+2022-04-27 15:20:14.817 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:14.822 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 41.2720 ms
+2022-04-27 15:20:14.826 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 53.5256ms
+2022-04-27 15:20:14.982 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=252510695e6b4bac83e6b2429e43b475&code_challenge=C-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA&code_challenge_method=S256&response_mode=query - -
+2022-04-27 15:20:14.992 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeEndpoint for /connect/authorize
+2022-04-27 15:20:14.998 +03:00 [INF] Showing login: User is not authenticated
+2022-04-27 15:20:15.002 +03:00 [INF] HTTP GET /connect/authorize responded 302 in 10.9905 ms
+2022-04-27 15:20:15.011 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/authorize?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=252510695e6b4bac83e6b2429e43b475&code_challenge=C-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA&code_challenge_method=S256&response_mode=query - - - 302 0 - 28.6798ms
+2022-04-27 15:20:15.085 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DADSKCloudViewer%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A44488%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DADSKCloudViewerAPI%2520openid%2520profile%26state%3D252510695e6b4bac83e6b2429e43b475%26code_challenge%3DC-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA%26code_challenge_method%3DS256%26response_mode%3Dquery - -
+2022-04-27 15:20:15.094 +03:00 [INF] Executing endpoint '/Account/Login'
+2022-04-27 15:20:15.098 +03:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2022-04-27 15:20:15.108 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnGetAsync - ModelState is "Valid"
+2022-04-27 15:20:15.114 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2022-04-27 15:20:15.117 +03:00 [INF] Executed handler method OnGetAsync, returned result .
+2022-04-27 15:20:15.125 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-04-27 15:20:15.131 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-04-27 15:20:15.193 +03:00 [INF] Executed page /Account/Login in 89.4532ms
+2022-04-27 15:20:15.197 +03:00 [INF] Executed endpoint '/Account/Login'
+2022-04-27 15:20:15.204 +03:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 109.9747 ms
+2022-04-27 15:20:15.216 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DADSKCloudViewer%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A44488%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DADSKCloudViewerAPI%2520openid%2520profile%26state%3D252510695e6b4bac83e6b2429e43b475%26code_challenge%3DC-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA%26code_challenge_method%3DS256%26response_mode%3Dquery - - - 200 - text/html;+charset=utf-8 130.7583ms
+2022-04-27 15:20:15.531 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - -
+2022-04-27 15:20:15.539 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 7.7443ms
+2022-04-27 15:20:19.966 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:44488/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DADSKCloudViewer%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A44488%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DADSKCloudViewerAPI%2520openid%2520profile%26state%3D252510695e6b4bac83e6b2429e43b475%26code_challenge%3DC-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA%26code_challenge_method%3DS256%26response_mode%3Dquery application/x-www-form-urlencoded 296
+2022-04-27 15:20:19.980 +03:00 [INF] No CORS policy found for the specified request.
+2022-04-27 15:20:19.991 +03:00 [INF] Executing endpoint '/Account/Login'
+2022-04-27 15:20:20.002 +03:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2022-04-27 15:20:20.035 +03:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LoginModel.OnPostAsync - ModelState is "Valid"
+2022-04-27 15:20:20.045 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:20.097 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2022-04-27 15:20:20.166 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-27 15:20:20.180 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2022-04-27 15:20:20.186 +03:00 [INF] User logged in.
+2022-04-27 15:20:20.200 +03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2022-04-27 15:20:20.231 +03:00 [INF] Executing LocalRedirectResult, redirecting to /connect/authorize/callback?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=252510695e6b4bac83e6b2429e43b475&code_challenge=C-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA&code_challenge_method=S256&response_mode=query.
+2022-04-27 15:20:20.252 +03:00 [INF] Executed page /Account/Login in 218.8799ms
+2022-04-27 15:20:20.262 +03:00 [INF] Executed endpoint '/Account/Login'
+2022-04-27 15:20:20.266 +03:00 [INF] HTTP POST /Identity/Account/Login responded 302 in 286.9042 ms
+2022-04-27 15:20:20.279 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:44488/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DADSKCloudViewer%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A44488%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DADSKCloudViewerAPI%2520openid%2520profile%26state%3D252510695e6b4bac83e6b2429e43b475%26code_challenge%3DC-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA%26code_challenge_method%3DS256%26response_mode%3Dquery application/x-www-form-urlencoded 296 - 302 0 - 312.5839ms
+2022-04-27 15:20:20.369 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/authorize/callback?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=252510695e6b4bac83e6b2429e43b475&code_challenge=C-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA&code_challenge_method=S256&response_mode=query - -
+2022-04-27 15:20:20.382 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2022-04-27 15:20:20.400 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:20.503 +03:00 [INF] Executed DbCommand (90ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:20:20.868 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:20.923 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__token_Key_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Key], [p].[ClientId], [p].[ConsumedTime], [p].[CreationTime], [p].[Data], [p].[Description], [p].[Expiration], [p].[SessionId], [p].[SubjectId], [p].[Type]
+FROM [PersistedGrants] AS [p]
+WHERE [p].[Key] = @__token_Key_0
+2022-04-27 15:20:21.018 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[@p0='?' (Size = 200), @p1='?' (Size = 200), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 200), @p6='?' (DbType = DateTime2), @p7='?' (Size = 100), @p8='?' (Size = 200), @p9='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [PersistedGrants] ([Key], [ClientId], [ConsumedTime], [CreationTime], [Data], [Description], [Expiration], [SessionId], [SubjectId], [Type])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2022-04-27 15:20:21.116 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":"https://localhost:44488/authentication/login-callback","Endpoint":"Authorize","SubjectId":"e1e3d956-74fd-4de0-9489-2a4036e86331","Scopes":"ADSKCloudViewerAPI openid profile","GrantType":"authorization_code","Tokens":[{"TokenType":"code","TokenValue":"****A523","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HMH88RM5SDK1:00000002","TimeStamp":"2022-04-27T12:20:21.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"TokenIssuedSuccessEvent"}
+2022-04-27 15:20:21.144 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2022-04-27 15:20:21.149 +03:00 [INF] HTTP GET /connect/authorize/callback responded 302 in 768.1137 ms
+2022-04-27 15:20:21.153 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/authorize/callback?client_id=ADSKCloudViewer&redirect_uri=https%3A%2F%2Flocalhost%3A44488%2Fauthentication%2Flogin-callback&response_type=code&scope=ADSKCloudViewerAPI%20openid%20profile&state=252510695e6b4bac83e6b2429e43b475&code_challenge=C-vGv3FBizuDE-cxeMgU2ZK00_O-XMOm6R1qKO2KVmA&code_challenge_method=S256&response_mode=query - - - 302 0 - 783.8126ms
+2022-04-27 15:20:21.894 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:21.902 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:22.118 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:22.134 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:22.234 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 100.7138ms
+2022-04-27 15:20:22.274 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:22.274 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:22.280 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 379.1700 ms
+2022-04-27 15:20:22.278 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:22.293 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:22.287 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 393.1290ms
+2022-04-27 15:20:22.302 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:22.311 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 9.3626ms
+2022-04-27 15:20:22.316 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:22.321 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 43.6583 ms
+2022-04-27 15:20:22.328 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 54.4965ms
+2022-04-27 15:20:22.379 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - -
+2022-04-27 15:20:22.385 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:22.389 +03:00 [INF] Route matched with {action = "GetClientRequestParameters", controller = "OidcConfiguration", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientRequestParameters(System.String) on controller ADSKCloudViewer.Controllers.OidcConfigurationController (ADSKCloudViewer).
+2022-04-27 15:20:22.400 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-04-27 15:20:22.413 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer) in 13.3004ms
+2022-04-27 15:20:22.428 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.OidcConfigurationController.GetClientRequestParameters (ADSKCloudViewer)'
+2022-04-27 15:20:22.432 +03:00 [INF] HTTP GET /_configuration/ADSKCloudViewer responded 200 in 47.7901 ms
+2022-04-27 15:20:22.438 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/_configuration/ADSKCloudViewer - - - 200 - application/json;+charset=utf-8 59.0512ms
+2022-04-27 15:20:22.478 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - -
+2022-04-27 15:20:22.486 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2022-04-27 15:20:22.492 +03:00 [INF] Active signing key found with kid 89ACED210B4C8984CA9A709801A32B13 for alg RS256. Expires in "89.23:52:20". Retires in "103.23:52:20"
+2022-04-27 15:20:22.499 +03:00 [INF] HTTP GET /.well-known/openid-configuration responded 200 in 13.7577 ms
+2022-04-27 15:20:22.510 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/.well-known/openid-configuration - - - 200 - application/json;+charset=UTF-8 31.4298ms
+2022-04-27 15:20:22.563 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:44488/connect/token application/x-www-form-urlencoded 315
+2022-04-27 15:20:22.566 +03:00 [INF] No CORS policy found for the specified request.
+2022-04-27 15:20:22.573 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.TokenEndpoint for /connect/token
+2022-04-27 15:20:22.597 +03:00 [INF] {"ClientId":"ADSKCloudViewer","AuthenticationMethod":"NoSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HMH88RM5SDK6:00000002","TimeStamp":"2022-04-27T12:20:22.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"ClientAuthenticationSuccessEvent"}
+2022-04-27 15:20:22.628 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:22.672 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__key_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Key], [p].[ClientId], [p].[ConsumedTime], [p].[CreationTime], [p].[Data], [p].[Description], [p].[Expiration], [p].[SessionId], [p].[SubjectId], [p].[Type]
+FROM [PersistedGrants] AS [p]
+WHERE [p].[Key] = @__key_0
+2022-04-27 15:20:22.716 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__key_0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Key], [p].[ClientId], [p].[ConsumedTime], [p].[CreationTime], [p].[Data], [p].[Description], [p].[Expiration], [p].[SessionId], [p].[SubjectId], [p].[Type]
+FROM [PersistedGrants] AS [p]
+WHERE [p].[Key] = @__key_0
+2022-04-27 15:20:22.796 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@p0='?' (Size = 200)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [PersistedGrants]
+WHERE [Key] = @p0;
+SELECT @@ROWCOUNT;
+2022-04-27 15:20:22.840 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:22.883 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:20:22.897 +03:00 [INF] Token request validation success, {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","GrantType":"authorization_code","Scopes":null,"AuthorizationCode":"****A523","RefreshToken":"********","UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"client_id":"ADSKCloudViewer","code":"13DC5C9720587E3D3A944FDD4DF3C477FBB27D2EE7F1219A8DBD48AA1AB1A523","redirect_uri":"https://localhost:44488/authentication/login-callback","code_verifier":"0ae42953b4fa4be290d93c9e9ada5995a1bd1a0730dc432b846c998b252cae691e43723dd67345cbaef51b8d2f83db06","grant_type":"authorization_code"},"$type":"TokenRequestValidationLog"}
+2022-04-27 15:20:22.970 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-27 15:20:22.992 +03:00 [INF] {"ClientId":"ADSKCloudViewer","ClientName":"ADSKCloudViewer","RedirectUri":null,"Endpoint":"Token","SubjectId":"e1e3d956-74fd-4de0-9489-2a4036e86331","Scopes":"ADSKCloudViewerAPI openid profile","GrantType":"authorization_code","Tokens":[{"TokenType":"id_token","TokenValue":"****8RKA","$type":"Token"},{"TokenType":"access_token","TokenValue":"****5_pQ","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HMH88RM5SDK6:00000002","TimeStamp":"2022-04-27T12:20:22.0000000Z","ProcessId":17256,"LocalIpAddress":"127.0.0.1:7269","RemoteIpAddress":"127.0.0.1","$type":"TokenIssuedSuccessEvent"}
+2022-04-27 15:20:23.039 +03:00 [INF] HTTP POST /connect/token responded 200 in 472.7365 ms
+2022-04-27 15:20:23.071 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:44488/connect/token application/x-www-form-urlencoded 315 - 200 - application/json;+charset=UTF-8 507.8729ms
+2022-04-27 15:20:23.119 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/userinfo - -
+2022-04-27 15:20:23.131 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.UserInfoEndpoint for /connect/userinfo
+2022-04-27 15:20:23.140 +03:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-27 15:20:23.184 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2022-04-27 15:20:23.237 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2022-04-27 15:20:23.249 +03:00 [INF] Profile service returned the following claim types: sub preferred_username name
+2022-04-27 15:20:23.256 +03:00 [INF] HTTP GET /connect/userinfo responded 200 in 127.2392 ms
+2022-04-27 15:20:23.280 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/userinfo - - - 200 - application/json;+charset=UTF-8 161.1441ms
+2022-04-27 15:20:23.448 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/connect/checksession - -
+2022-04-27 15:20:23.467 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44488/weatherforecast - -
+2022-04-27 15:20:23.482 +03:00 [INF] Invoking IdentityServer endpoint: Duende.IdentityServer.Endpoints.CheckSessionEndpoint for /connect/checksession
+2022-04-27 15:20:23.486 +03:00 [INF] Executing endpoint 'ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer)'
+2022-04-27 15:20:23.491 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast", page = "", area = ""}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ADSKCloudViewer.WeatherForecast] Get() on controller ADSKCloudViewer.Controllers.WeatherForecastController (ADSKCloudViewer).
+2022-04-27 15:20:23.488 +03:00 [INF] HTTP GET /connect/checksession responded 200 in 7.7118 ms
+2022-04-27 15:20:23.531 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/connect/checksession - - - 200 - text/html;+charset=UTF-8 83.1172ms
+2022-04-27 15:20:23.498 +03:00 [INF] Executing ObjectResult, writing value of type 'ADSKCloudViewer.WeatherForecast[]'.
+2022-04-27 15:20:23.574 +03:00 [INF] Executed action ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer) in 75.7188ms
+2022-04-27 15:20:23.582 +03:00 [INF] Executed endpoint 'ADSKCloudViewer.Controllers.WeatherForecastController.Get (ADSKCloudViewer)'
+2022-04-27 15:20:23.588 +03:00 [INF] HTTP GET /weatherforecast responded 200 in 105.5386 ms
+2022-04-27 15:20:23.598 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44488/weatherforecast - - - 200 - application/json;+charset=utf-8 131.4706ms

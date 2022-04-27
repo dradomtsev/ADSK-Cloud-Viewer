@@ -1,0 +1,36 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:58975",
+      "sslPort": 44388
+    }
+  },
+  "profiles": {
+    "ADSKCloudViewer": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy",
+        "AZURE_CLIENT_SECRET": "dVh8Q~pI.R4ozOQhmd3uIW9zRKOe64JsRJYCocoQ",
+        "AZURE_USERNAME": "d.radomtsev@gmail.com",
+        "AZURE_CLIENT_ID": "550b5563-2c4b-4503-a4f3-24caf283e4a3",
+        "AZURE_TENANT_ID": "371b5d5f-101d-4f1b-bd9f-8b5be0dc6d1f",
+        "VaultUri": "https://adsk-forge-vault.vault.azure.net/"
+      },
+      "applicationUrl": "https://localhost:7269;http://localhost:5269"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy",
+        "AZURE_USERNAME": "d.radomtsev@gmail.com",
+        "VaultUri": "https://adsk-forge-vault.vault.azure.net/"
+      }
+    }
+  }
+}
